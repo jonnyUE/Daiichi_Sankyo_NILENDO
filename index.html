@@ -35,10 +35,6 @@
             height: 100%;
         }
 
-        #unity-canvas {
-            width: 100%;
-            height: 100%;
-        }
         .ctaDiv {
             display: flex;
             flex-direction: column;
@@ -62,6 +58,7 @@
 		<imagetarget id='lady' src='targets/lady.png'></imagetarget>
 		<imagetarget id='reel' src='targets/reel.png'></imagetarget>
 		<imagetarget id='rmn' src='targets/rmn.png'></imagetarget>
+		<imagetarget id='Marker_01' src='targets/Marker_01.jpg'></imagetarget>
 
     <video id="webcam-video" muted autoplay playsinline style="width:1px;position:absolute"></video>
     <!-- <video id="webcam-video" muted autoplay playsinline style="width:100%; height:100%; object-fit:cover; position:absolute"></video> -->
@@ -132,9 +129,9 @@
                 
                 document.getElementById("startARDiv").style.display = "none";
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/87178c5dd6de40e84be1f91abad45186.data",
-                    frameworkUrl: "Build/0984e3f1bb84c85c63c0447bb7ce3eae.js",
-                    codeUrl: "Build/d5d5ed5638ec8e0af27beb5374780a1e.wasm",
+                    dataUrl: "Build/0c020692d4ac7fe8e977e8bf1b132ea9.data",
+                    frameworkUrl: "Build/81fa01cfb6ec953f1e0c2c8124c3942e.js",
+                    codeUrl: "Build/77dd36c9dfafee4c8416806cb3b833c6.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "Ricciardi Jonathan",
                     productName: "Daiichi_Sankyo",
